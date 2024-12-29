@@ -1,4 +1,4 @@
-# Ignore build output and debug/release directories
+# Ignore build outputs
 bin/
 obj/
 
@@ -8,14 +8,29 @@ obj/
 *.userosscache
 *.sln.docstates
 
-# Ignore temporary files
-*.vs/
-.vscode/
-.vs/
-
-# Ignore dependency cache
-packages/
-
-# Ignore application logs and temporary files
+# Ignore logs and temporary files
 *.log
 *.tmp
+
+# Ignore package manager outputs
+packages/
+*.nupkg
+project.lock.json
+
+# Ignore IDE settings
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore build artifacts
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Ignore environment configuration files
+appsettings*.json
+.env
+
+# Ignore publish outputs
+publish/
