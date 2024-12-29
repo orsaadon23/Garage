@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization.Metadata;
 using System.Threading.Tasks;
 
-namespace Ex03.GarageLogic
+namespace Models
 {
     public class GarageManager
     {
